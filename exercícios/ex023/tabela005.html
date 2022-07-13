@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-weight: bold;
+            padding-bottom: 15px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .cnome {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <tr>
+            <caption>Cadastro</caption>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João Miguel</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Vítor Hugo</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Eletricista</td>
+        </tr>
+        <tr>
+            <td>Diana Almeida</td>
+            <td>F</td>
+            <td>48</td>
+            <td>Cantora</td>
+        </tr>
+        <tr>
+            <td>José Pedro</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>39</td>
+            <td>Médica</td>
+        </tr>
+    </table>
+</body>
+</html>
